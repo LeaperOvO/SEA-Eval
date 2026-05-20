@@ -1,0 +1,125 @@
+[
+  {
+    "id": "S1",
+    "diff": "Easy",
+    "rounds": "8-12",
+    "title_zh": "Python 包维护状态判定",
+    "title_en": "Python Package Maintenance Status",
+    "desc": "访问 PyPI，通过搜索获取以下 5 个包的信息：requests, flask, django, numpy, bolt。对每个包判定维护状态（活跃维护/维护中/低活跃/疑似停止维护/已明确停止），并给出判定依据。",
+    "sources": [
+      "PyPI"
+    ],
+    "reqs": [
+      "获取5个包的最新版本、发布时间、维护者信息",
+      "设计维护状态判定标准（需自行定义阈值）",
+      "识别 bolt 包的特殊情况（同名包歧义）",
+      "输出结构化JSON结果"
+    ]
+  },
+  {
+    "id": "S2",
+    "diff": "Easy",
+    "rounds": "8-12",
+    "title_zh": "npm 包下载量趋势对比",
+    "title_en": "npm Package Download Trend Comparison",
+    "desc": "对比以下前端框架在 npm 上的下载量趋势：react, vue, angular, svelte, solid-js。获取周下载量数据，计算增长率，判断趋势方向。",
+    "sources": [
+      "npm",
+      "npm-downloads"
+    ],
+    "reqs": [
+      "获取5个包的周下载量数据",
+      "计算同比/环比增长率",
+      "判断各框架的趋势方向（上升/平稳/下降）",
+      "识别异常数据点并解释原因"
+    ]
+  },
+  {
+    "id": "M2",
+    "diff": "Medium",
+    "rounds": "15-20",
+    "title_zh": "HuggingFace 模型效率比分析",
+    "title_en": "HuggingFace Model Efficiency Analysis",
+    "desc": "在 HuggingFace 上搜索 Qwen2、Gemma-2、Phi-3 三个模型系列，分析其变体的「效率比」（下载量/参数量比值），找出各系列中效率最高和最低的变体，并检测异常值。",
+    "sources": [
+      "HuggingFace"
+    ],
+    "reqs": [
+      "搜索三个模型系列的所有变体",
+      "区分 base/instruct/chat 版本",
+      "计算效率比并进行跨系列对比",
+      "处理命名不一致问题",
+      "检测并解释异常值"
+    ]
+  },
+  {
+    "id": "H1",
+    "diff": "Hard",
+    "rounds": "25-35",
+    "title_zh": "技术健康度指数构建与跨生态排名",
+    "title_en": "Technology Health Index Construction",
+    "desc": "构建「技术健康度指数」(THI)，从5+数据源提取8+量化指标，对 Python/JavaScript/Rust/TypeScript/Go 五个技术进行评估和排名，并进行敏感性分析。",
+    "sources": [
+      "PyPI",
+      "npm",
+      "crates.io",
+      "StackOverflow",
+      "HuggingFace",
+      "Wikipedia",
+      "OpenLibrary"
+    ],
+    "reqs": [
+      "设计包含8+指标的权重体系",
+      "处理Go缺少专属包管理器的问题",
+      "处理TypeScript/JavaScript在npm上的重叠",
+      "归一化处理量级差异",
+      "至少2种权重方案的敏感性分析",
+      "识别指数局限性"
+    ]
+  },
+  {
+    "id": "H2",
+    "diff": "Hard",
+    "rounds": "25-35",
+    "title_zh": "「被低估的技术」发现——跨源信号矛盾分析",
+    "title_en": "Undervalued Technology Discovery",
+    "desc": "通过对比不同数据源的信号，找出15个目标（5 Python包 + 5 npm包 + 5 crates.io包）中「被低估」或「被高估」的技术。计算实用/社区/学习/叙事四维信号的百分位排名，检测矛盾。",
+    "sources": [
+      "PyPI",
+      "npm",
+      "crates.io",
+      "StackOverflow",
+      "OpenLibrary",
+      "Wikipedia"
+    ],
+    "reqs": [
+      "从conds.io Top20中筛选5个应用开发者包",
+      "计算四维信号：实用/社区/学习/叙事",
+      "百分位排名与矛盾检测",
+      "对矛盾目标给出解释",
+      "分析方法本身的局限性"
+    ]
+  },
+  {
+    "id": "H3",
+    "diff": "Hard",
+    "rounds": "25-35",
+    "title_zh": "开源 AI 模型生态全景报告",
+    "title_en": "Open-Source AI Model Ecosystem Report",
+    "desc": "综合所有可用数据源，为 Qwen2/Gemma-2/Phi-3/Mistral/DeepSeek 五个模型系列生成生态全景报告，涵盖模型层、工具层、知识层三个维度，最终给出生态成熟度评分。",
+    "sources": [
+      "HuggingFace",
+      "PyPI",
+      "npm",
+      "Wikipedia",
+      "OpenLibrary",
+      "StackOverflow"
+    ],
+    "reqs": [
+      "Part A: 模型多样性分析（规模变体、版本类型、规模-热度关系）",
+      "Part B: 工具层分析（推理框架支持度）",
+      "Part C: 知识层分析（Wikipedia/书籍/问答覆盖）",
+      "Part D: 综合生态成熟度评分与排名"
+    ]
+  }
+]

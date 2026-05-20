@@ -1,0 +1,188 @@
+{
+  "dimensions": {
+    "nav": {
+      "cn": "深度网页导航",
+      "en": "Deep Web Navigation",
+      "color": "#4CAF50"
+    },
+    "integrate": {
+      "cn": "跨平台数据整合",
+      "en": "Cross-platform Integration",
+      "color": "#2196F3"
+    },
+    "extract": {
+      "cn": "结构化信息提取",
+      "en": "Structured Extraction",
+      "color": "#FF9800"
+    },
+    "constraint": {
+      "cn": "多约束推理",
+      "en": "Multi-constraint Reasoning",
+      "color": "#9C27B0"
+    },
+    "temporal": {
+      "cn": "时序推理",
+      "en": "Temporal Reasoning",
+      "color": "#00BCD4"
+    },
+    "quant": {
+      "cn": "定量分析与计算",
+      "en": "Quantitative Analysis",
+      "color": "#F44336"
+    },
+    "doc": {
+      "cn": "长文档理解",
+      "en": "Document Comprehension",
+      "color": "#795548"
+    },
+    "domain": {
+      "cn": "领域专业知识",
+      "en": "Domain Knowledge",
+      "color": "#607D8B"
+    },
+    "verify": {
+      "cn": "验证与交叉引用",
+      "en": "Verification",
+      "color": "#E91E63"
+    },
+    "plan": {
+      "cn": "条件规划与决策",
+      "en": "Conditional Planning",
+      "color": "#673AB7"
+    }
+  },
+  "task_capabilities": {
+    "1": {
+      "title": "开源软件供应链深度审计",
+      "dims": [
+        "nav",
+        "integrate",
+        "extract",
+        "temporal",
+        "verify"
+      ],
+      "rationale": "需在GitHub深度导航(PR/Issue/标签筛选)，跨平台(GitHub→官方文档)验证，提取结构化PR数据，时间范围过滤(30天)"
+    },
+    "2": {
+      "title": "跨国科技会议差旅规划",
+      "dims": [
+        "nav",
+        "constraint",
+        "integrate",
+        "plan",
+        "temporal"
+      ],
+      "rationale": "多网站搜索(航班/酒店/天气)，极端多约束(价格+距离+评分+转机时间)，条件决策(降水>40%则加需求)"
+    },
+    "3": {
+      "title": "全球半导体行业财报穿透对比",
+      "dims": [
+        "doc",
+        "extract",
+        "quant",
+        "integrate",
+        "domain"
+      ],
+      "rationale": "阅读财报PDF，提取财务指标，计算YoY增长率/毛利率，跨公司对比，需理解财务术语"
+    },
+    "4": {
+      "title": "前沿AI论文复现可行性评估",
+      "dims": [
+        "doc",
+        "domain",
+        "quant",
+        "integrate",
+        "plan"
+      ],
+      "rationale": "阅读技术论文，理解ML训练硬件需求，估算云计算成本，综合判断可行性"
+    },
+    "5": {
+      "title": "顶级学术会议论文影响力追踪",
+      "dims": [
+        "nav",
+        "extract",
+        "integrate",
+        "quant",
+        "temporal"
+      ],
+      "rationale": "学术数据库检索，引用链追踪，跨平台(IEEE/ACM→Scholar)数据整合，去重清洗"
+    },
+    "6": {
+      "title": "智能硬件固件安全漏洞深度溯源",
+      "dims": [
+        "domain",
+        "nav",
+        "temporal",
+        "integrate",
+        "extract"
+      ],
+      "rationale": "安全领域知识(CVE/CVSS)，NVD→GitHub commit追踪，时间线重建，补丁关联分析"
+    },
+    "7": {
+      "title": "初创公司融资背景与创始团队关联分析",
+      "dims": [
+        "nav",
+        "integrate",
+        "extract",
+        "verify",
+        "domain"
+      ],
+      "rationale": "Crunchbase/LinkedIn多平台导航，投资者网络关联分析，人物背景交叉验证"
+    },
+    "8": {
+      "title": "电子游戏Meta评分与市场表现相关性审计",
+      "dims": [
+        "extract",
+        "integrate",
+        "temporal",
+        "quant",
+        "nav"
+      ],
+      "rationale": "多评分平台数据提取，时间线对齐(发售日/峰值)，跨平台(Metacritic→SteamDB)整合"
+    },
+    "9": {
+      "title": "全球气候变化协议履行情况",
+      "dims": [
+        "doc",
+        "extract",
+        "quant",
+        "temporal",
+        "domain"
+      ],
+      "rationale": "ESG报告PDF深度阅读，结构化指标提取(碳排放/水耗)，跨年度对比计算"
+    },
+    "10": {
+      "title": "UNESCO世界遗产保护现状深度评估",
+      "dims": [
+        "nav",
+        "doc",
+        "extract",
+        "verify",
+        "domain"
+      ],
+      "rationale": "多语言UNESCO网站导航，官方PDF报告分析，政策建议验证，历史地理知识"
+    },
+    "11": {
+      "title": "自动驾驶芯片算力与功耗实测比对",
+      "dims": [
+        "doc",
+        "extract",
+        "quant",
+        "domain",
+        "verify"
+      ],
+      "rationale": "技术白皮书阅读，硬件规格提取，单位换算(TOPS/W)，官方vs拆解数据交叉验证"
+    },
+    "12": {
+      "title": "全球超算排行榜能耗趋势分析",
+      "dims": [
+        "nav",
+        "extract",
+        "quant",
+        "temporal",
+        "plan"
+      ],
+      "rationale": "TOP500列表数据抓取，历史快照对比(5年)，能效趋势计算与预测"
+    }
+  }
+}

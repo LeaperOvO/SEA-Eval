@@ -1,0 +1,794 @@
+[
+  {
+    "num": 1,
+    "icon": "🔗",
+    "title_cn": "开源软件供应链深度审计",
+    "title_en": "Open Source Supply Chain Deep Audit",
+    "tags": [
+      "GitHub Navigation",
+      "Cross-platform Integration",
+      "Code Insight"
+    ],
+    "tags_cn": [
+      "深度导航",
+      "跨平台数据整合",
+      "代码库洞察"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "开源软件供应链深度审计",
+        "focus": "深度导航、跨平台数据整合、代码库洞察。",
+        "question_cn": "请深入调研 LangChain 框架在 GitHub 上的表现。\n\n1. 访问其 GitHub 仓库，找出过去 30 天内合并（Merged）的、且带有 'bug' 标签的前 5 个 PR。\n2. 追踪这 5 个 PR 关联的 Issue，提取出这 5 个 Bug 所涉及的底层模块（Module）。\n3. 访问 langchain.com 文档页，核实这 5 个模块在官方文档中是否有对应的 'Troubleshooting' 说明。\n\n将结果整理为 `report_01.json`，格式如下：\n\n```json\n[{\"pr_number\": 数字, \"bug_module\": \"模块名\", \"doc_covered\": boolean, \"issue_link\": \"url\"}]\n```\n\n\n---",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.82,
+            "completeness": 0.51,
+            "timeliness": 0.78
+          },
+          "overall": 0.7,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "开源软件供应链深度审计",
+        "focus": "深度导航、跨平台数据整合、代码库洞察。",
+        "question_cn": "请深入调研 LlamaIndex 框架在 GitHub 上的表现。\n\n1. 访问其 GitHub 仓库，找出过去 30 天内合并（Merged）的、且带有 'enhancement' 标签的前 5 个 PR。\n2. 追踪这 5 个 PR 关联的 Issue，提取出这 5 个 Enhancement 所涉及的核心功能（Feature）。\n3. 访问 docs.llamaindex.ai 文档页，核实这 5 个功能在官方文档中是否有对应的 'How-to' 示例。\n\n将结果整理为 `report_01b.json`，格式如下：\n\n```json\n[{\"pr_number\": 数字, \"enhancement_feature\": \"功能名\", \"doc_covered\": boolean, \"issue_link\": \"url\"}]\n```\n\n\n---",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.68,
+            "completeness": 0.79,
+            "timeliness": 0.9
+          },
+          "overall": 0.79,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "开源软件供应链深度审计",
+        "focus": "深度导航、跨平台数据整合、代码库洞察。",
+        "question_cn": "请深入调研 AutoGPT 框架在 GitHub 上的表现。\n\n1. 访问其 GitHub 仓库，找出过去 30 天内合并（Merged）的、且带有 'performance' 标签的前 5 个 PR。\n2. 追踪这 5 个 PR 关联的 Issue，提取出这 5 个性能优化所涉及的关键组件（Component）。\n3. 访问 autogpt.net 文档页，核实这 5 个组件在官方文档中是否有对应的 'Optimization Guide'。\n\n将结果整理为 `report_01c.json`，格式如下：\n\n```json\n[{\"pr_number\": 数字, \"performance_component\": \"组件名\", \"doc_covered\": boolean, \"issue_link\": \"url\"}]\n```\n\n---",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.91,
+            "completeness": 0.53,
+            "timeliness": 0.83
+          },
+          "overall": 0.76,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "icon": "✈️",
+    "title_cn": "跨国科技会议差旅规划（极端约束版）",
+    "title_en": "International Tech Conference Travel Planning",
+    "tags": [
+      "Real-time Data",
+      "Multi-constraint Filtering",
+      "Long-term Planning"
+    ],
+    "tags_cn": [
+      "实时动态数据获取",
+      "多重过滤",
+      "长效规划"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "跨国科技会议差旅规划（极端约束版）",
+        "focus": "实时动态数据获取、多重过滤、长效规划。",
+        "question_cn": "计划参加 2026 年在巴黎举行的 ICSE 会议（假设日期为 5月18-24日）。\n\n1. 在 Google Flights 或 Skyscanner 寻找从北京到巴黎的往返机票，要求：5月17日到达，5月25日返回，总转机时间不超过 5 小时。\n2. 在 Booking.com 或 Airbnb 寻找会议中心（Palais des Congrès de Paris）步行 2km 以内的住宿，评分需 > 8.5，且 8 晚总价低于 $2000。\n3. 访问巴黎气象局或相关预测网站，获取该时段的历史降水概率，若概率 > 40%，则需额外寻找一家提供室内停车场的酒店。",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.61,
+            "completeness": 0.59,
+            "timeliness": 0.85
+          },
+          "overall": 0.68,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "跨国科技会议差旅规划（极端约束版）",
+        "focus": "实时动态数据获取、多重过滤、长效规划。",
+        "question_cn": "计划参加 2026 年在东京举行的 ACL 会议（假设日期为 7月12-17日）。\n\n1. 在 Google Flights 或 Skyscanner 寻找从上海到东京的往返机票，要求：7月11日到达，7月18日返回，总转机时间不超过 4 小时。\n2. 在 Booking.com 或 Airbnb 寻找会议中心（Tokyo International Forum）步行 1.5km 以内的住宿，评分需 > 8.0，且 7 晚总价低于 ¥15000。\n3. 访问日本气象厅或相关预测网站，获取该时段的历史湿度信息，若湿度 > 80%，则需额外寻找一家提供除湿设备的酒店。",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.61,
+            "completeness": 0.58,
+            "timeliness": 0.89
+          },
+          "overall": 0.69,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "跨国科技会议差旅规划（极端约束版）",
+        "focus": "实时动态数据获取、多重过滤、长效规划。",
+        "question_cn": "计划参加 2026 年在伦敦举行的 NeurIPS 会议（假设日期为 12月8-14日）。\n\n1. 在 Google Flights 或 Skyscanner 寻找从香港到伦敦的往返机票，要求：12月7日到达，12月15日返回，总转机时间不超过 6 小时。\n2. 在 Booking.com 或 Airbnb 寻找会议中心（ExCeL London）步行 2km 以内的住宿，评分需 > 8.5，且 8 晚总价低于 £1800。\n3. 访问英国气象局或相关预测网站，获取该时段的历史降雪概率，若概率 > 30%，则需额外寻找一家提供暖气设备的酒店。",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.79,
+            "completeness": 0.59,
+            "timeliness": 0.88
+          },
+          "overall": 0.75,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "icon": "💰",
+    "title_cn": "全球半导体行业财报穿透对比",
+    "title_en": "Global Semiconductor Financial Report Analysis",
+    "tags": [
+      "Financial Data Extraction",
+      "Cross-company Comparison",
+      "Trend Analysis"
+    ],
+    "tags_cn": [
+      "财报数据提取",
+      "跨公司对比",
+      "趋势分析"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "全球半导体行业财报穿透对比",
+        "focus": "PDF 解析、多来源数据对齐、财务逻辑校验。",
+        "question_cn": "对比 NVIDIA 和 AMD 最近一个财季的财务表现。\n\n1. 访问两家公司的 Investor Relations 页面，下载最新的 Earnings Press Release（PDF 链接）。\n2. 提取 NVIDIA 的 'Data Center' 业务收入和 AMD 的 'Data Center Segment' 收入。\n3. 搜索两家公司关于下一季度的 'Revenue Outlook' 指引数值。\n4. 到 Yahoo Finance 提取这两家公司当前的 'Forward P/E' 值。",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.88,
+            "completeness": 0.5,
+            "timeliness": 0.94
+          },
+          "overall": 0.77,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "全球半导体行业财报穿透对比",
+        "focus": "PDF 解析、多来源数据对齐、财务逻辑校验。",
+        "question_cn": "对比 Intel 和 Qualcomm 最近一个财季的财务表现。\n\n1. 访问两家公司的 Investor Relations 页面，下载最新的 Earnings Press Release（PDF 链接）。\n2. 提取 Intel 的 'Client Computing' 业务收入和 Qualcomm 的 'QCT'（Qualcomm CDMA Technologies）收入。\n3. 搜索两家公司关于下一季度的 'Revenue Guidance' 指引数值。\n4. 到 Google Finance 提取这两家公司当前的 'P/E Ratio' 值。",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.84,
+            "completeness": 0.64,
+            "timeliness": 0.75
+          },
+          "overall": 0.74,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "全球半导体行业财报穿透对比",
+        "focus": "PDF 解析、多来源数据对齐、财务逻辑校验。",
+        "question_cn": "对比 TSMC 和 Samsung Foundry 最近一个财季的财务表现。\n\n1. 访问两家公司或相关 Investor Relations 页面，下载最新的 Earnings Press Release（PDF 链接）。\n2. 提取 TSMC 的 'Advanced node' 收入占比和 Samsung Foundry 的 'Foundry' 业务收入。\n3. 搜索两家公司关于下一季度的 'Capacity Utilization' 指引数值。\n4. 到 Bloomberg 提取这两家公司当前的 'EV/EBITDA' 值。",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.94,
+            "completeness": 0.63,
+            "timeliness": 0.73
+          },
+          "overall": 0.77,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "icon": "🧪",
+    "title_cn": "前沿 AI 论文复现可行性评估（学术搜索）",
+    "title_en": "Frontier AI Paper Reproducibility Assessment",
+    "tags": [
+      "Paper Analysis",
+      "Hardware Estimation",
+      "Feasibility Judgment"
+    ],
+    "tags_cn": [
+      "论文深度分析",
+      "硬件估算",
+      "可行性判断"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "前沿 AI 论文复现可行性评估（学术搜索）",
+        "focus": "学术资源获取、环境依赖解析、逻辑推演。",
+        "question_cn": "针对论文 \"DeepSeek-V3 Technical Report\" 进行调研。\n\n1. 在 arXiv 或官网找到论文，提取其提到的核心硬件环境（如 GPU 型号及显存要求）。\n2. 在 GitHub 搜索该论文的官方或高星第三方实现仓库。\n3. 进入 requirements.txt 或 environment.yml 文件，提取所有版本号锁定的核心依赖库。\n4. 在 Hugging Face 搜索其权重文件的大小，并结合硬件环境判断：如果只有 8 张 A100 (80GB)，是否能在不量化的情况下进行推理？",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.63,
+            "completeness": 0.84,
+            "timeliness": 0.88
+          },
+          "overall": 0.78,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "前沿 AI 论文复现可行性评估（学术搜索）",
+        "focus": "学术资源获取、环境依赖解析、逻辑推演。",
+        "question_cn": "针对论文 \"LLaMA 3.1 Technical Report\" 进行调研。\n\n1. 在 arXiv 或 Meta AI 官网找到论文，提取其提到的核心硬件环境（如 GPU 型号及显存要求）。\n2. 在 GitHub 搜索该论文的官方或高星第三方实现仓库。\n3. 进入 requirements.txt 或 environment.yml 文件，提取所有版本号锁定的核心依赖库。\n4. 在 Hugging Face 搜索其权重文件的大小，并结合硬件环境判断：如果只有 4 张 H100 (80GB)，是否能在不量化的情况下进行推理？",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.88,
+            "completeness": 0.79,
+            "timeliness": 0.86
+          },
+          "overall": 0.84,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "前沿 AI 论文复现可行性评估（学术搜索）",
+        "focus": "学术资源获取、环境依赖解析、逻辑推演。",
+        "question_cn": "针对论文 \"Gemini 1.5 Technical Report\" 进行调研。\n\n1. 在 arXiv 或 Google DeepMind 官网找到论文，提取其提到的核心硬件环境（如 TPU 型号及内存要求）。\n2. 在 GitHub 搜索该论文的官方或高星第三方实现仓库。\n3. 进入 requirements.txt 或 environment.yml 文件，提取所有版本号锁定的核心依赖库。\n4. 在 Hugging Face 或 Google AI 搜索其权重文件的大小，并结合硬件环境判断：如果只有 8 张 TPU v4，是否能在不量化的情况下进行推理？",
+        "output_format": "",
+        "result": {
+          "scores": {
+            "accuracy": 0.94,
+            "completeness": 0.65,
+            "timeliness": 0.87
+          },
+          "overall": 0.82,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "icon": "📚",
+    "title_cn": "顶级学术会议（ICSE 2024）论文影响力追踪",
+    "title_en": "Top Academic Conference Paper Impact Tracking",
+    "tags": [
+      "Academic DB Search",
+      "Citation Analysis",
+      "Data Cleaning"
+    ],
+    "tags_cn": [
+      "学术数据库检索",
+      "引用链分析",
+      "数据清洗"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "顶级学术会议（ICSE 2024）论文影响力追踪",
+        "focus": "学术数据库检索、引用链分析、数据清洗。",
+        "question_cn": "1. 访问 IEEE Xplore 或 ACM Digital Library 搜索 'ICSE 2024'。\n2. 找到该会议中关于 'Large Language Models' 为主题的被引次数最高的前 2 篇论文。\n3. 访问 Google Scholar 或 Semantic Scholar 获取这两篇论文在过去 6 个月内的最新引用列表。\n4. 统计这些引用论文中，有多少篇是发表在 CCF-A 类会议或期刊上的。",
+        "output_format": "将结果写入 `report_05.json`：\n\n```json\n[{\"paper_title\": \"标题\", \"latest_citations\": 数字, \"top_tier_venue_count\": 数字}]\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.89,
+            "completeness": 0.75,
+            "timeliness": 0.96
+          },
+          "overall": 0.87,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "顶级学术会议（ICSE 2024）论文影响力追踪",
+        "focus": "学术数据库检索、引用链分析、数据清洗。",
+        "question_cn": "1. 访问 IEEE Xplore 或 ACM Digital Library 搜索 'NeurIPS 2024'。\n2. 找到该会议中关于 'Reinforcement Learning' 为主题的被引次数最高的前 2 篇论文。\n3. 访问 Google Scholar 或 Semantic Scholar 获取这两篇论文在过去 6 个月内的最新引用列表。\n4. 统计这些引用论文中，有多少篇是发表在 CCF-A 类会议或期刊上的。",
+        "output_format": "将结果写入 `report_05b.json`：\n\n```json\n[{\"paper_title\": \"标题\", \"latest_citations\": 数字, \"top_tier_venue_count\": 数字}]\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.8,
+            "completeness": 0.78,
+            "timeliness": 0.71
+          },
+          "overall": 0.76,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "顶级学术会议（ICSE 2024）论文影响力追踪",
+        "focus": "学术数据库检索、引用链分析、数据清洗。",
+        "question_cn": "1. 访问 IEEE Xplore 或 ACM Digital Library 搜索 'ACL 2024'。\n2. 找到该会议中关于 'Multimodal Learning' 为主题的被引次数最高的前 2 篇论文。\n3. 访问 Google Scholar 或 Semantic Scholar 获取这两篇论文在过去 6 个月内的最新引用列表。\n4. 统计这些引用论文中，有多少篇是发表在 CCF-A 类会议或期刊上的。",
+        "output_format": "将结果写入 `report_05c.json`：\n\n```json\n[{\"paper_title\": \"标题\", \"latest_citations\": 数字, \"top_tier_venue_count\": 数字}]\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.68,
+            "completeness": 0.62,
+            "timeliness": 0.72
+          },
+          "overall": 0.67,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "icon": "🛡️",
+    "title_cn": "智能硬件固件安全漏洞深度溯源",
+    "title_en": "CVE Vulnerability Full-chain Traceability Analysis",
+    "tags": [
+      "Security Advisory",
+      "Patch Tracking",
+      "Timeline Reconstruction"
+    ],
+    "tags_cn": [
+      "安全公告解析",
+      "补丁追踪",
+      "时间线重建"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "智能硬件固件安全漏洞深度溯源",
+        "focus": "CVE 数据库交互、技术博文理解、补丁代码定位。",
+        "question_cn": "针对漏洞 CVE-2024-21626 (runC 容器逃逸漏洞)：\n\n1. 访问 NVD 数据库获取其 CVSS 评分和受影响的版本范围。\n2. 在 GitHub 上搜索该漏洞的官方修复 Commit。\n3. 通过该 Commit 找到受影响的核心函数（Function Name），并解释该漏洞触发的逻辑原因。",
+        "output_format": "将结果写入 `report_06.json`：\n\n```json\n{\"cve_id\": \"CVE-2024-21626\", \"cvss\": 数字, \"fix_commit_url\": \"链接\", \"buggy_function\": \"函数名\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.68,
+            "completeness": 0.54,
+            "timeliness": 0.78
+          },
+          "overall": 0.67,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "智能硬件固件安全漏洞深度溯源",
+        "focus": "CVE 数据库交互、技术博文理解、补丁代码定位。",
+        "question_cn": "针对漏洞 CVE-2024-29824 ：\n\n1. 访问 NVD 数据库获取其 CVSS 评分和受影响的 CPU 型号范围。\n2. 在 GitHub 或 Intel 官网上搜索该漏洞的官方修复微代码（Microcode Update）。\n3. 通过相关技术分析找到该漏洞触发的核心原理（Attack Vector），并解释其影响范围。",
+        "output_format": "将结果写入 `report_06b.json`：\n\n```json\n{\"cve_id\": \"CVE-2024-29824\", \"cvss\": 数字, \"affected_cpus\": [\"型号列表\"], \"attack_vector\": \"攻击原理\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.82,
+            "completeness": 0.65,
+            "timeliness": 0.81
+          },
+          "overall": 0.76,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "智能硬件固件安全漏洞深度溯源",
+        "focus": "CVE 数据库交互、技术博文理解、补丁代码定位。",
+        "question_cn": "针对漏洞 CVE-2024-3094 (XZ Utils 供应链攻击)：\n\n1. 访问 NVD 数据库获取其 CVSS 评分和受影响的版本范围。\n2. 在 GitHub 上搜索该漏洞的官方修复 Commit 或版本。\n3. 通过相关技术报告找到该漏洞植入的后门函数（Backdoor Function），并解释其传播方式。",
+        "output_format": "将结果写入 `report_06c.json`：\n\n```json\n{\"cve_id\": \"CVE-2024-3094\", \"cvss\": 数字, \"affected_versions\": [\"版本列表\"], \"backdoor_function\": \"后门函数名\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.67,
+            "completeness": 0.61,
+            "timeliness": 0.98
+          },
+          "overall": 0.75,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "icon": "📊",
+    "title_cn": "初创公司融资背景与创始团队关联分析",
+    "title_en": "AI Startup Funding & Valuation Intelligence",
+    "tags": [
+      "Funding Data",
+      "Valuation Estimation",
+      "Investor Network"
+    ],
+    "tags_cn": [
+      "融资数据",
+      "估值推算",
+      "投资者网络"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "初创公司融资背景与创始团队关联分析",
+        "focus": "投融资数据平台、职业社交网络、因果推理。",
+        "question_cn": "请调研初创公司 Mistral AI。\n\n1. 在 Crunchbase 或新闻站查找其最近一轮融资的金额、估值和领投机构。\n2. 访问 LinkedIn 或公司官网，提取核心创始人（前 3 位）的姓名及其在加入前的工作单位。\n3. 搜索并确认这些前雇主是否也参与了该公司的早期投资。",
+        "output_format": "将结果写入 `report_07.json`：\n\n```json\n{\"valuation\": \"数值\", \"founders\": [{\"name\": \"姓名\", \"ex_employer\": \"前单位\", \"is_investor\": boolean}]}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.83,
+            "completeness": 0.74,
+            "timeliness": 0.75
+          },
+          "overall": 0.77,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "初创公司融资背景与创始团队关联分析",
+        "focus": "投融资数据平台、职业社交网络、因果推理。",
+        "question_cn": "请调研初创公司 Cohere。\n\n1. 在 Crunchbase 或新闻站查找其最近一轮融资的金额、估值和领投机构。\n2. 访问 LinkedIn 或公司官网，提取核心创始人（前 3 位）的姓名及其在加入前的工作单位。\n3. 搜索并确认这些前雇主是否也参与了该公司的早期投资。",
+        "output_format": "将结果写入 `report_07b.json`：\n\n```json\n{\"valuation\": \"数值\", \"founders\": [{\"name\": \"姓名\", \"ex_employer\": \"前单位\", \"is_investor\": boolean}]}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.86,
+            "completeness": 0.57,
+            "timeliness": 0.81
+          },
+          "overall": 0.75,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "初创公司融资背景与创始团队关联分析",
+        "focus": "投融资数据平台、职业社交网络、因果推理。",
+        "question_cn": "请调研初创公司 Anthropic。\n\n1. 在 Crunchbase 或新闻站查找其最近一轮融资的金额、估值和领投机构。\n2. 访问 LinkedIn 或公司官网，提取核心创始人（前 3 位）的姓名及其在加入前的工作单位。\n3. 搜索并确认这些前雇主是否也参与了该公司的早期投资。",
+        "output_format": "将结果写入 `report_07c.json`：\n\n```json\n{\"valuation\": \"数值\", \"founders\": [{\"name\": \"姓名\", \"ex_employer\": \"前单位\", \"is_investor\": boolean}]}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.95,
+            "completeness": 0.76,
+            "timeliness": 0.87
+          },
+          "overall": 0.86,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "icon": "🎮",
+    "title_cn": "电子游戏 Meta 评分与市场表现相关性审计",
+    "title_en": "Video Game Meta Score & Market Performance Audit",
+    "tags": [
+      "Review Aggregation",
+      "Sales Estimation",
+      "Timeline Alignment"
+    ],
+    "tags_cn": [
+      "评论聚合站解析",
+      "销量数据估算",
+      "时间线对齐"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "电子游戏 Meta 评分与市场表现相关性审计",
+        "focus": "评论聚合站解析、销量数据估算、时间线对齐。",
+        "question_cn": "1. 访问 Metacritic 查找 2024 年发售的游戏 'Black Myth: Wukong'。\n2. 提取其 PC 版和 PS5 版的媒体平均分及用户评分。\n3. 访问 SteamDB，获取该游戏发布首周的最高在线人数（All-time Peak）。\n4. 搜集其开发者 Game Science 在社交媒体或官网公布的最新全球销量数据。",
+        "output_format": "将结果写入 `report_08.json`：\n\n```json\n{\"meta_score\": 数字, \"user_score\": 数字, \"steam_peak\": 数字, \"official_sales\": \"数值\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.84,
+            "completeness": 0.84,
+            "timeliness": 0.93
+          },
+          "overall": 0.87,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "电子游戏 Meta 评分与市场表现相关性审计",
+        "focus": "评论聚合站解析、销量数据估算、时间线对齐。",
+        "question_cn": "1. 访问 Metacritic 查找 2024 年发售的游戏 'Stellar Blade'。\n2. 提取其 PS5 版和 PC 版的媒体平均分及用户评分。\n3. 访问 SteamDB，获取该游戏发布首周的最高在线人数（All-time Peak）。\n4. 搜集其开发者 Shift Up 在社交媒体或官网公布的最新全球销量数据。",
+        "output_format": "将结果写入 `report_08b.json`：\n\n```json\n{\"meta_score\": 数字, \"user_score\": 数字, \"steam_peak\": 数字, \"official_sales\": \"数值\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.68,
+            "completeness": 0.51,
+            "timeliness": 0.79
+          },
+          "overall": 0.66,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "电子游戏 Meta 评分与市场表现相关性审计",
+        "focus": "评论聚合站解析、销量数据估算、时间线对齐。",
+        "question_cn": "1. 访问 Metacritic 查找 2024 年发售的游戏 'Elden Ring: Shadow of the Erdtree'。\n2. 提取其 PC 版和 PS5/Xbox 版的媒体平均分及用户评分。\n3. 访问 SteamDB，获取该 DLC 发布首周的最高在线人数（All-time Peak）。\n4. 搜集 FromSoftware 在社交媒体或官网公布的最新全球销量数据。",
+        "output_format": "将结果写入 `report_08c.json`：\n\n```json\n{\"meta_score\": 数字, \"user_score\": 数字, \"steam_peak\": 数字, \"official_sales\": \"数值\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.69,
+            "completeness": 0.58,
+            "timeliness": 0.98
+          },
+          "overall": 0.75,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "icon": "🌍",
+    "title_cn": "全球气候变化协议履行情况（企业级）",
+    "title_en": "Global Climate Agreement Compliance (Corporate)",
+    "tags": [
+      "ESG Report Analysis",
+      "Metric Extraction",
+      "Cross-year Comparison"
+    ],
+    "tags_cn": [
+      "ESG报告分析",
+      "结构化指标提取",
+      "跨年度对比"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "全球气候变化协议履行情况（企业级）",
+        "focus": "ESG 报告分析、结构化指标提取、跨年度对比。",
+        "question_cn": "请调研 Tesla 过去两年的《Impact Report》（影响力报告）。\n\n1. 找到其 2022 和 2023 年度 'Scope 1' 和 'Scope 2' 的碳排放总量数据。\n2. 提取其超级工厂（Gigafactory）在水资源循环利用率（Water recycling rate）上的百分比变化。\n3. 验证报告中提到的排放减少是否符合 Science Based Targets initiative (SBTi) 的认证标准。",
+        "output_format": "将结果写入 `report_09.json`：\n\n```json\n{\"year\": \"2023\", \"scope_1_2_total\": \"数值\", \"water_recycling\": \"百分比\", \"sbti_verified\": boolean}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.91,
+            "completeness": 0.63,
+            "timeliness": 0.9
+          },
+          "overall": 0.81,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "全球气候变化协议履行情况（企业级）",
+        "focus": "ESG 报告分析、结构化指标提取、跨年度对比。",
+        "question_cn": "请调研 Apple 过去两年的《Environmental Progress Report》（环境进展报告）。\n\n1. 找到其 2022 和 2023 年度 'Scope 1'、'Scope 2' 和 'Scope 3' 的碳排放总量数据。\n2. 提取其在《供应商清洁能源计划》中已加入的供应商数量变化。\n3. 验证报告中提到的碳中和进展是否符合 RE100 的承诺标准。",
+        "output_format": "将结果写入 `report_09b.json`：\n\n```json\n{\"year\": \"2023\", \"scope_1_2_3_total\": \"数值\", \"clean_energy_suppliers\": 数字, \"re100_compliant\": boolean}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.74,
+            "completeness": 0.87,
+            "timeliness": 0.84
+          },
+          "overall": 0.82,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "全球气候变化协议履行情况（企业级）",
+        "focus": "ESG 报告分析、结构化指标提取、跨年度对比。",
+        "question_cn": "请调研 Amazon 过去两年的《Climate Pledge Report》（气候承诺报告）。\n\n1. 找到其 2022 和 2023 年度 'Scope 1' 和 'Scope 2' 的碳排放总量数据。\n2. 提取其在全球物流网络中使用电动车辆（Electric Delivery Vehicles）的数量变化。\n3. 验证报告中提到的 2040 净零碳排放目标是否符合 SBTi 的认证标准。",
+        "output_format": "将结果写入 `report_09c.json`：\n\n```json\n{\"year\": \"2023\", \"scope_1_2_total\": \"数值\", \"electric_vehicles\": 数字, \"sbti_net_zero_2040\": boolean}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.69,
+            "completeness": 0.6,
+            "timeliness": 0.87
+          },
+          "overall": 0.72,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "icon": "🏛️",
+    "title_cn": "UNESCO 世界遗产保护现状深度评估",
+    "title_en": "UNESCO World Heritage Conservation Assessment",
+    "tags": [
+      "Multilingual Navigation",
+      "PDF Report",
+      "Policy Verification"
+    ],
+    "tags_cn": [
+      "多语言网页导航",
+      "官方报告PDF",
+      "历史地理对比"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "UNESCO 世界遗产保护现状深度评估",
+        "focus": "多语言网页导航（视 Agent 能力而定）、官方报告 PDF、历史地理对比。",
+        "question_cn": "1. 访问 whc.unesco.org（联合国教科文组织世界遗产中心）。\n2. 搜索状态为 'In Danger'（濒危）的文化遗产列表。\n3. 选取 '威尼斯及其潟湖'（Venice and its Lagoon），下载其最新的 'State of Conservation (SOC)' 报告。\n4. 提取报告中提到的关于 '大型邮轮限制' 的具体政策实施日期。\n5. 搜索威尼斯当地政府官网（comune.venezia.it）的新闻稿，验证该限制在 2025-2026 年是否有新的调整。",
+        "output_format": "将结果写入 `report_10.json`：\n\n```json\n{\"site_name\": \"Venice\", \"danger_reason\": \"描述\", \"cruise_limit_date\": \"日期\", \"latest_update_2026\": \"描述\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.69,
+            "completeness": 0.73,
+            "timeliness": 0.97
+          },
+          "overall": 0.8,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "UNESCO 世界遗产保护现状深度评估",
+        "focus": "多语言网页导航（视 Agent 能力而定）、官方报告 PDF、历史地理对比。",
+        "question_cn": "1. 访问 whc.unesco.org（联合国教科文组织世界遗产中心）。\n2. 搜索状态为 'In Danger'（濒危）的文化遗产列表。\n3. 选取 '吴哥窟遗址区'（Angkor），下载其最新的 'State of Conservation (SOC)' 报告。\n4. 提取报告中提到的关于 '游客流量限制' 的具体措施。\n5. 搜索柬埔寨吴哥古迹管理机构官网（angaokor.org）的新闻稿，验证该措施在 2025-2026 年是否有新的调整。",
+        "output_format": "将结果写入 `report_10b.json`：\n\n```json\n{\"site_name\": \"Angkor\", \"danger_reason\": \"描述\", \"tourist_limit_measures\": \"措施\", \"latest_update_2026\": \"描述\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.74,
+            "completeness": 0.59,
+            "timeliness": 1.0
+          },
+          "overall": 0.78,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "UNESCO 世界遗产保护现状深度评估",
+        "focus": "多语言网页导航（视 Agent 能力而定）、官方报告 PDF、历史地理对比。",
+        "question_cn": "1. 访问 whc.unesco.org（联合国教科文组织世界遗产中心）。\n2. 搜索状态为 'In Danger'（濒危）的文化遗产列表。\n3. 选取 '大堡礁'（Great Barrier Reef），下载其最新的 'State of Conservation (SOC)' 报告。\n4. 提取报告中提到的关于 '海洋保护' 的具体措施。\n5. 搜索澳大利亚海洋科学研究所（AIMS）官网的新闻稿，验证该措施在 2025-2026 年是否有新的调整。",
+        "output_format": "将结果写入 `report_10c.json`：\n\n```json\n{\"site_name\": \"Great Barrier Reef\", \"danger_reason\": \"描述\", \"marine_protection_measures\": \"措施\", \"latest_update_2026\": \"描述\"}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.78,
+            "completeness": 0.54,
+            "timeliness": 0.71
+          },
+          "overall": 0.68,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "icon": "🚗",
+    "title_cn": "自动驾驶芯片（SoC）算力与功耗实测比对",
+    "title_en": "Autonomous Driving SoC Performance & Power Comparison",
+    "tags": [
+      "Technical Whitepaper",
+      "Hardware Teardown",
+      "Unit Conversion"
+    ],
+    "tags_cn": [
+      "技术白皮书",
+      "硬件拆解报告",
+      "单位换算与推导"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "自动驾驶芯片（SoC）算力与功耗实测比对",
+        "focus": "技术白皮书、硬件拆解报告、单位换算与推导。",
+        "question_cn": "对比 Nvidia Orin-X 和华为 MDC 810。\n\n1. 访问 Nvidia 官网找到 DRIVE Orin 的技术规格说明书，提取其 TOPS 算力及典型功耗（Watt）。\n2. 搜索第三方专业的硬件拆解网站（如 TechInsights 或 Yole Group 的公开摘要），寻找该芯片的封装尺寸（Die Size）。\n3. 针对华为 MDC 810，搜索其配套的传感器支持数量（如支持多少个 8MP 摄像头）。\n4. 计算两者的 '能效比'（TOPS/Watt）并进行对比。",
+        "output_format": "将结果写入 `report_11.json`：\n\n```json\n[\n  {\"chip\": \"Orin-X\", \"tops\": 数字, \"power_w\": 数字, \"efficiency_ratio\": 数字},\n  {\"chip\": \"MDC 810\", \"tops\": 数字, \"power_w\": 数字, \"efficiency_ratio\": 数字}\n]\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.64,
+            "completeness": 0.75,
+            "timeliness": 0.94
+          },
+          "overall": 0.78,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "自动驾驶芯片（SoC）算力与功耗实测比对",
+        "focus": "技术白皮书、硬件拆解报告、单位换算与推导。",
+        "question_cn": "对比 Tesla FSD Chip 和高通 Ride Flex。\n\n1. 访问 Tesla 官网找到 FSD HW 4.0 的技术规格说明书，提取其 TOPS 算力及典型功耗（Watt）。\n2. 搜索第三方专业的硬件拆解网站（如 TechInsights 或 Yole Group 的公开摘要），寻找该芯片的制程节点（Process Node）。\n3. 针对高通 Ride Flex，搜索其支持的摄像头数量及雷达接口类型。\n4. 计算两者的 '能效比'（TOPS/Watt）并进行对比。",
+        "output_format": "将结果写入 `report_11b.json`：\n\n```json\n[\n  {\"chip\": \"Tesla FSD HW4.0\", \"tops\": 数字, \"power_w\": 数字, \"efficiency_ratio\": 数字},\n  {\"chip\": \"Qualcomm Ride Flex\", \"tops\": 数字, \"power_w\": 数字, \"efficiency_ratio\": 数字}\n]\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.75,
+            "completeness": 0.53,
+            "timeliness": 0.81
+          },
+          "overall": 0.7,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "自动驾驶芯片（SoC）算力与功耗实测比对",
+        "focus": "技术白皮书、硬件拆解报告、单位换算与推导。",
+        "question_cn": "对比 Mobileye EyeQ Ultra 和地平线 Journey 5。\n\n1. 访问 Mobileye 官网找到 EyeQ Ultra 的技术规格说明书，提取其 TOPS 算力及典型功耗（Watt）。\n2. 搜索第三方专业的硬件拆解网站（如 TechInsights 或 Yole Group 的公开摘要），寻找该芯片的功耗分布（Power Breakdown）。\n3. 针对地平线 Journey 5，搜索其配套的感知网络支持数量（如支持多少路摄像头融合）。\n4. 计算两者的 '能效比'（TOPS/Watt）并进行对比。",
+        "output_format": "将结果写入 `report_11c.json`：\n\n```json\n[\n  {\"chip\": \"Mobileye EyeQ Ultra\", \"tops\": 数字, \"power_w\": 数字, \"efficiency_ratio\": 数字},\n  {\"chip\": \"Horizon Journey 5\", \"tops\": 数字, \"power_w\": 数字, \"efficiency_ratio\": 数字}\n]\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.95,
+            "completeness": 0.71,
+            "timeliness": 0.99
+          },
+          "overall": 0.88,
+          "status": "pending"
+        }
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "icon": "🖥️",
+    "title_cn": "全球超算排行榜（TOP500）的能耗趋势分析",
+    "title_en": "Global Supercomputer (TOP500) Energy Efficiency Trends",
+    "tags": [
+      "List Data Scraping",
+      "Historical Snapshot",
+      "Trend Prediction"
+    ],
+    "tags_cn": [
+      "列表数据抓取",
+      "历史快照对比",
+      "趋势预测计算"
+    ],
+    "variants": [
+      {
+        "id": "A",
+        "title": "全球超算排行榜（TOP500）的能耗趋势分析",
+        "focus": "列表数据抓取、历史快照对比、趋势预测计算。",
+        "question_cn": "1. 访问 top500.org。\n2. 找到 2025 年 11 月（或最新一期）排行榜的前 10 名系统。\n3. 提取第一名和第十名系统的 'Green500' 排名及其能效值（GFlops/Watts）。\n4. 访问该榜单 5 年前（2020年或2021年）的历史归档页面。\n5. 对比这 5 年间，超算前 10 名的平均能效提升了多少倍。",
+        "output_format": "将结果写入 `report_12.json`：\n\n```json\n{\"current_no1_efficiency\": 数字, \"past_no1_efficiency\": 数字, \"improvement_factor\": 数字}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.9,
+            "completeness": 0.5,
+            "timeliness": 0.92
+          },
+          "overall": 0.77,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "B",
+        "title": "全球超算排行榜（TOP500）的能耗趋势分析",
+        "focus": "列表数据抓取、历史快照对比、趋势预测计算。",
+        "question_cn": "1. 访问 top500.org。\n2. 找到 2025 年 11 月（或最新一期）排行榜的前 5 名系统。\n3. 提取第一名的系统名称、所在国家及其 HPL 性能值（HFlops）。\n4. 访问该榜单 3 年前（2022年）的历史归档页面。\n5. 对比这 3 年间，超算第一名的性能提升了多少倍。",
+        "output_format": "将结果写入 `report_12b.json`：\n\n```json\n{\"current_no1_name\": \"名称\", \"current_country\": \"国家\", \"current_hpl\": 数字, \"past_hpl\": 数字, \"improvement_factor\": 数字}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.84,
+            "completeness": 0.71,
+            "timeliness": 0.78
+          },
+          "overall": 0.78,
+          "status": "pending"
+        }
+      },
+      {
+        "id": "C",
+        "title": "全球超算排行榜（TOP500）的能耗趋势分析",
+        "focus": "列表数据抓取、历史快照对比、趋势预测计算。",
+        "question_cn": "1. 访问 green500.org。\n2. 找到 2025 年 11 月（或最新一期）Green500 排行榜的前 5 名系统。\n3. 提取第一名的系统名称、所在国家及其能效值（GFlops/Watts）。\n4. 访问该榜单 2 年前（2023年）的历史归档页面。\n5. 对比这 2 年间，Green500 第一名的能效提升或下降了百分之多少。",
+        "output_format": "将结果写入 `report_12c.json`：\n\n```json\n{\"current_no1_name\": \"名称\", \"current_country\": \"国家\", \"current_efficiency\": 数字, \"past_efficiency\": 数字, \"change_percentage\": 数字}\n```",
+        "result": {
+          "scores": {
+            "accuracy": 0.82,
+            "completeness": 0.54,
+            "timeliness": 0.83
+          },
+          "overall": 0.73,
+          "status": "pending"
+        }
+      }
+    ]
+  }
+]
